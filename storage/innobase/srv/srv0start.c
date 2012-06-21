@@ -2275,7 +2275,7 @@ innobase_shutdown_for_mysql(void)
 	if (srv_print_verbose_log) {
 		ut_print_timestamp(stderr);
 		fprintf(stderr,
-			"  InnoDB: Shutdown completed;"
+			" InnoDB: Shutdown completed;"
 			" log sequence number %llu\n",
 			srv_shutdown_lsn);
 	}
